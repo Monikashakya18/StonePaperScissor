@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    /* border: 1px solid #000; */
+    background: rgb(232, 211, 211);
+     padding: 7px;
+}
+
+header>h2 {
+    text-align: center;
+}
+
+.containt {
+    border: 2px solid #101010;
+    background: rgb(27, 27, 30);
+    height:100vh;
+    width: 100%;
+}
+
+.score-bord {
+    background: rgb(45, 41, 41);
+    border: 1px solid black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px auto;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    position: relative;
+}
+.com{
+    position:absolute;
+    left:5px;
+    top :45px;
+    
+}
+.user{
+    position: absolute;
+    right: 20%;
+    top :45px;
+    }
+    .score{
+        position: absolute;
+        right:70px;
+        top :5px;
+        font-size: 30px;
+    }
+/* .com{
+background: red;
+position:absolute;
+left: -35px;
+top :35px;
+border-radius: 4px;
+}
+.user{
+top :35px;
+background:red;
+position: absolute;
+right: -15px;
+border-radius: 4px;
+} */
+.choises {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.choise {
+    height: 6.6rem;
+    width: 6.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+img{
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choise:hover{
+   background-color: #4d4040;
+    cursor: pointer;
+}
+.msg>h4{
+    color:white;
+    margin: 50px;
+}
+.msg{
+    text-align: center;
+}
+.cbtn{
+    text-align: center;
+    margin-top: 100px;
+}
